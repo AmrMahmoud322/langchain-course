@@ -6,9 +6,10 @@ readme = "README.md"
 authors = [
     { name = "Amr Mahmoud", email = "amr.m.ahmed@gizasystems.com" }
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "black>=26.10.1",
+    "deepagents>=0.7.39",
     "isort>=9.0.2",
     "langchain>=1.4.10",
     "langchain-google-genai>=4.4.3",
